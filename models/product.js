@@ -7,6 +7,7 @@ const productSchema = new mongoose.Schema({
     id: {
         type: String,
         required: true,
+        unique: true,
         default: function () { return this._id.toString(); }
     },
     name: {
