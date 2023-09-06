@@ -144,9 +144,9 @@ exports.updateQuantity = async (req, res) => {
                     id: product.id,
                     name: product.name,
                     quantity: product.quantity
-                }
-            },
-            message: 'Updated successfully'
+                },
+                message: 'Updated successfully'
+            }
         });
 
     } catch (error) {
