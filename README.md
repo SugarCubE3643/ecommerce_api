@@ -51,6 +51,8 @@ To run this project, you will need to add the following environment variables to
 
 **Use Postman application or REST Client VS Code Extension for using the API**
 
+**I have provided template for REST Client API usage in the .rest file**
+
 - Create Product
 
    Endpoint: `POST http://127.0.0.1:PORT/products/create`
