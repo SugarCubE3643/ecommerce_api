@@ -86,6 +86,6 @@ To run this project, you will need to add the following environment variables to
      - A negative value will be subtracted from the current quantity
 
 ## License
-[![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 
