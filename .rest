@@ -1,19 +1,35 @@
 ###Create a Product
-#POST http://127.0.0.1:8000/products/create
-#Content-Type: application/json
-# {
-#   "name":"Example Product",
-#   "quantity":30
-# }
+
+POST http://127.0.0.1:8000/products/create
+
+Content-Type: application/json
+
+{
+  "name":"Example Product",
+  "quantity":30
+}
 
 ###List Products
-# GET http://localhost:8000/products
+
+GET http://localhost:8000/products
 
 
 ###Delete a Product
-# DELETE http://localhost:8000/products/:id
 
+DELETE http://localhost:8000/products/:id
+
+# Replace :id with a valid product id
 
 ###Update Quantity of a Product
-# PATCH http://localhost:8000/products/:id/update_quantity?number={Update_Quantity_By}
-# Content-Type: application/json
+
+PATCH http://localhost:8000/products/:id/update_quantity?number={Update_Quantity_By}
+
+Content-Type: application/json
+
+# Replace :id with a valid product id
+
+# Replace {Update_Quantity_By} with the quantity you want to add or subtract from the existing quantity of the product
+
+#   A positive value will add up to the current quantity
+
+#   A negative value will be subtracted from the current quantity
