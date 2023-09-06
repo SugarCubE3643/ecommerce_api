@@ -79,11 +79,11 @@ To run this project, you will need to add the following environment variables to
    Headers: `Content-Type: application/json`
 
    - Replace :id with a valid product id
-   - Replace Update_Quantity_By with the quantity you want to add or subtract from the existing quantity of the product
+   - Replace {Update_Quantity_By} with the quantity you want to add or subtract from the existing quantity of the product
      - A positive value will add up to the current quantity
      - A negative value will be subtracted from the current quantity
 
 ## License
-[License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)
+[![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)
 
 
