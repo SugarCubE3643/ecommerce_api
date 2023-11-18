@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
-
+const env = require('./environment');
 // Connect to the database
-const dbURL = process.env.MONGODB_URL;
+const dbURL = env.db;
 mongoose.connect(dbURL, {
     useUnifiedTopology: true // Enable the new connection management engine
 });;
